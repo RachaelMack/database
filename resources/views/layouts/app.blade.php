@@ -85,7 +85,7 @@
         @yield('content')
     </div>
 
-    <div class="nav-side-menu">
+    <!-- <div class="nav-side-menu">
         <div class="brand">Brand Logo</div>
         <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
 
@@ -148,7 +148,7 @@
                     </li>
                 </ul>
          </div>
-    </div>
+    </div> -->
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>

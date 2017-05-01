@@ -8,6 +8,9 @@ input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 1000px white inset !important;
 }
 
+.dashboard-buttons {
+  margin-top: 100px !important;
+}
 
 /*   SIDE MENU    */
 .nav-side-menu {
@@ -149,8 +152,4 @@ input:-webkit-autofill {
   .nav-side-menu .menu-list .menu-content {
     display: block;
   }
-}
-body {
-  margin: 0px;
-  padding: 0px;
 }

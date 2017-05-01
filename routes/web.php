@@ -18,3 +18,11 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/dashboard', 'HomeController@index');
+
+Route::get('client/{query}', function($query){
+  return App\Client::search($query)->get();
+});
+
+
+Route::get('/search',array('as'=>'client','uses'=>'ClientController@index'));
+Route::get('/autocomplete',array('as'=>'autocomplete','uses'=>'ClientController@autocomplete'));
