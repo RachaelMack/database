@@ -7,6 +7,8 @@ use Laravel\Scout\Searchable;
 
 class Client extends Model
 {
+
+  protected $fillable = ['orgainization_id'];
   use Searchable;
 
   public $asYouType = true;
